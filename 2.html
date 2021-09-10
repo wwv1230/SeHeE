@@ -2,46 +2,73 @@
 <html>
 <head>
 <title>세희의 일기장</title>
+
+<style>
+  body {
+  margin: 0;
+  }
+  h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 20px;
+  }
+  ol {
+    border-right: 1px solid black;
+    width:100px;
+    margin: 0;
+    padding: 20px;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  ol {
+    padding-left: 33px;
+  }
+  #article{
+    padding: 25px;
+  }
+
+</style>
 </head>
 
 <body>
-  <h1><a href = "index.html">세희의 일기장</a></h1>
-  안뇽~! 나의 일기를 보러 와주어서 고마워욧<br>
-  누추하지만 맘껏 즐겨욧~!<br>
-  <a href = "https://www.instagram.com/seeeeee_h_/" target = "_blank" title =  "세희망의 인스타 프로필">요기</a>는 나의 인스타 프로필💕<br>
+<h1><a href = "index.html" title =  "목차">세희의 일기장</a></h1>
 
-<ol>
-    <li><a href = "1.html">9월 3일</a></li>
-    <li><a href = "2.html">9월 0일</a> </li>
-    <li><a href = "3.html">9월 0일</a></li>
-</ol>
+<div id="grid">
+  <ol>
+      <li><a href = "1.html">9월 3일</a></li>
+      <li><a href = "2.html">9월 10일</a> </li>
+      <li><a href = "3.html">9월 0일</a></li>
+  </ol>
 
-<h2>아직 쓰지 못한 미래의 이야기 with 존잘 재현...wow</h2>
-<img src= "재현.jpeg" width = 90%>
+  <div id="article">
+      <h2>2021년 9월 10일 오후 4시 40분 </h2>
+    아 지금 약간 난관에 부딪혔다.<br>
+    하란대로 했는데 뭐가 문제짓...?!!?!?!ㅠㅠㅠ<br><br>
 
-<!-- LiveRe City install code -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC81NDE2Mi8zMDYzNA==">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
+    흑흑 오늘은 웹 페이지를 꾸밀 수 있는 기능?인 CSS를 배웠다.<br>
+    그래서 이걸 써먹으려고 열심히 나의 일기장을 리모델링 했는데, 문제가 생겼다..!!<br>
+    그것은 바로 <strong>메인 페이지와 나머지 페이지들의 글자 크기? 배열? 이 다르다는 것</strong><br>
+    흑흑 뭐가 문제지 코드는 똑같은데.......... ㅠㅠㅠ<br><br>
 
-       if (typeof LivereTower === 'function') { return; }
+    엥 다시보니 내가 창을 확대해놨었음 ㅎㅎ 무안..<br>
+    근데 또다른 문제는 9월 10일의 "세희의 일기장"이라는 글씨가 오른쪽으로 치우친다.<br>
+    이건 또 뭐지...<br><br>
 
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
+    아 뭔지 알았어<br>
+    다른 일기들은 다 길이가 길어서 세로로 드르륵할 수 있는 그게 있는데 이건 없네..!!!<br>
+    그래서 크기가 다른 거였어<br>
+    그렇다면 사진을 넣음으로써 똑같이 맞춘다!<br><br>
 
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> Please activate JavaScript for write a comment in LiveRe</noscript>
+    <img src="재현.jpeg" width=100%><br>
+    재현님..!!<br><br>
+    아 이따 네일 받으러 가고 운동가야쥐~ㅎㅎ
+  </div>
 </div>
-<!-- completed City install code -->
 
-<ol>
-    <li><a href = "1.html">9월 3일</a></li>
-    <li><a href = "2.html">9월 0일</a> </li>
-    <li><a href = "3.html">9월 0일</a></li>
-</ol>
+
 </body>
 </html>

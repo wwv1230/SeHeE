@@ -2,46 +2,53 @@
 <html>
 <head>
 <title>세희의 일기장</title>
+
+<style>
+  body {
+  margin: 0;
+  }
+  h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 20px;
+  }
+  ol {
+    border-right: 1px solid black;
+    width:100px;
+    margin: 0;
+    padding: 20px;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  ol {
+    padding-left: 33px;
+  }
+  #article{
+    padding: 25px;
+  }
+
+</style>
 </head>
 
 <body>
-  <h1><a href = "index.html">세희의 일기장</a></h1>
-  안뇽~! 나의 일기를 보러 와주어서 고마워욧<br>
-  누추하지만 맘껏 즐겨욧~!<br>
-  <a href = "https://www.instagram.com/seeeeee_h_/" target = "_blank" title =  "세희망의 인스타 프로필">요기</a>는 나의 인스타 프로필💕<br>
+<h1><a href = "index.html" title =  "목차">세희의 일기장</a></h1>
 
-<ol>
-    <li><a href = "1.html">9월 3일</a></li>
-    <li><a href = "2.html">9월 0일</a> </li>
-    <li><a href = "3.html">9월 0일</a></li>
-</ol>
+<div id="grid">
+  <ol>
+      <li><a href = "1.html">9월 3일</a></li>
+      <li><a href = "2.html">9월 10일</a> </li>
+      <li><a href = "3.html">9월 0일</a></li>
+  </ol>
 
-<h2>나의 퓨쳐는 어떻게 될까 and 헬로퓨쳐</h2>
-<img src = "헬로퓨처.jpg" height = "100%">
-
-<!-- LiveRe City install code -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC81NDE2Mi8zMDYzNA==">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> Please activate JavaScript for write a comment in LiveRe</noscript>
+  <div id="article">
+      <h2>나의 퓨쳐는 어떻게 될까 and 헬로퓨쳐</h2>
+      <img src = "헬로퓨처.jpg" height = "100%">
+  </div>
 </div>
-<!-- completed City install code -->
 
-<ol>
-    <li><a href = "1.html">9월 3일</a></li>
-    <li><a href = "2.html">9월 0일</a> </li>
-    <li><a href = "3.html">9월 0일</a></li>
-</ol>
 </body>
 </html>
